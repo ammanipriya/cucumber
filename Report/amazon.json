@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-04T12:11:02.970Z",
+        "line": 4,
+        "name": "Home page",
+        "description": "",
+        "id": "check-the-search-funtion;home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4163859000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User able to launch the url",
+            "match": {
+              "location": "com.amazonstepdef.amazonstepdef.user_able_to_launch_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-04T12:11:07.384Z",
+        "line": 7,
+        "name": "Searchfunction",
+        "description": "",
+        "id": "check-the-search-funtion;searchfunction",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 495673200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User able to type \"smart watch\" on the Search Box in Homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"smart watch\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.amazonstepdef.amazonstepdef.user_able_to_type_on_the_search_box_in_homepage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4550329000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User able to click on the Search button,it navigates to smartwatch page",
+            "match": {
+              "location": "com.amazonstepdef.amazonstepdef.user_able_to_click_on_the_search_button_it_navigates_to_smartwatch_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d107.0.5304.122)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: \u00274.4.0\u0027, revision: \u0027e5c75ed026a\u0027\nSystem info: host: \u0027DESKTOP-8Q4D43U\u0027, ip: \u0027192.168.1.8\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [380493944b0665c3d97fb04b3640b765, clickElement {id\u003dba747428-a940-497f-a9b6-0da09f2bcc34}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\Priya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56481/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (380493944b0665c3d97fb04b3640b765)] -\u003e xpath: //select[@id\u003d\u0027s-result-sort-select\u0027]]\nSession ID: 380493944b0665c3d97fb04b3640b765\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)\r\n\tat com.amazonstepdef.amazonstepdef.user_able_to_click(amazonstepdef.java:43)\r\n\tat ✽.User able to click \"Newest Arrivals\"(file:///C:/Users/Priya/eclipse-workspace/cucumber/./Features/Amazon.feature:10)\r\n",
+              "duration": 8218299100,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "User able to click \"Newest Arrivals\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newest Arrivals\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.amazonstepdef.amazonstepdef.user_able_to_click(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-04T12:11:20.730Z",
+        "line": 11,
+        "name": "clickonproduct",
+        "description": "",
+        "id": "check-the-search-funtion;clickonproduct",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12376893000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User able to  click on the product",
+            "match": {
+              "location": "com.amazonstepdef.amazonstepdef.user_able_to_click_on_the_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2785773600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User able to click add to cart",
+            "match": {
+              "location": "com.amazonstepdef.amazonstepdef.user_able_to_click_add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "check the search funtion",
+    "description": "",
+    "id": "check-the-search-funtion",
+    "keyword": "Feature",
+    "uri": "file:Features/Amazon.feature",
+    "tags": []
+  }
+]
